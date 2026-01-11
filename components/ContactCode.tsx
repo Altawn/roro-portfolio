@@ -21,16 +21,6 @@ const contactItems = [
     link: 'Ronan Meyer-Roussilhon',
     href: 'https://www.linkedin.com/in/ronan-meyer',
   },
-  // {
-  //   social: 'twitter',
-  //   link: 'iamnitinr',
-  //   href: 'https://www.twitter.com/iamnitinr',
-  // },
-  // {
-  //   social: 'telegram',
-  //   link: 'iamnitinr',
-  //   href: 'https://t.me/iamnitinr',
-  // },
   {
     social: 'letterboxd',
     link: 'Ronskeen',

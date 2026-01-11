@@ -1,49 +1,60 @@
-# vscode-portfolio
-[![Open is Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/itsnitinr/vscode-portfolio)
+# Portfolio de Ronan Meyer
 
-A Visual Studio Code themed developer portfolio website built with Next.js and deployed on Vercel.
+Bienvenue sur le dépôt de mon portfolio personnel. Ce projet est une application web moderne construite avec **Next.js**, et conçue pour ressembler à l'interface de **Visual Studio Code**, mon éditeur de code quotidien.
 
-![vscode-portfolio banner](https://imgur.com/JXJ9mpO.gif)
+![Aperçu du Portfolio](https://imgur.com/JXJ9mpO.gif)
 
-## Features Roadmap
+## 👨‍💻 À propos
 
-- [ ] Themes and customizations
-  - [x] GitHub Dark (default)
-  - [ ] One Dark Pro
-  - [x] Dracula
-  - [x] Ayu
-  - [x] Nord
-- [ ] Interactive custom terminal
+Ce portfolio regroupe mes projets, mes compétences et mon parcours en tant qu'étudiant en Master 1 à l'ECE Paris (Majeure Ingénierie & Design Produit). Il sert de vitrine interactive pour mon travail en **développement web** (React, Next.js, Node.js) et en **design** (Figma).
 
-For other features and themes suggestions, please open an issue.
+## 🚀 Fonctionnalités
 
-## Environment Variables
+- **Design Immersif** : Une interface utilisateur qui reprend les codes visuels de VS Code.
+- **Navigation Fluide** : Système d'onglets et de sidebar pour naviguer entre les sections (Accueil, À propos, Contact, Projets).
+- **Projets Dynamiques** : Affichage de mes récents projets GitHub et autres réalisations.
+- **Thèmes** : Support de plusieurs thèmes visuels (GitHub Dark par défaut, Dracula, Ayu, Nord).
 
-For fetching your articles from dev.to, create an `.env.local` file inside the project directory. Check the `.env.local.example` file for more information.
+## 🛠️ Stack Technique
 
-## Running Development Server
+- **Framework** : [Next.js](https://nextjs.org/)
+- **Langage** : TypeScript / JavaScript
+- **Styles** : modules CSS
+- **Déploiement** : Vercel
+- **API** : GitHub API (pour récupérer mes repos et stats en temps réel)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## 📦 Installation & Démarrage
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Pour lancer le projet localement sur votre machine :
 
-All VSCode related components can be found in the `components` folder. To change the content of the portfolio, check out the `pages` folder. To add or remove pages, modify `components/Sidebar.jsx` and `components/Tabsbar.jsx`.
+1. Cloner le repo :
+   ```bash
+   git clone https://github.com/Altawn/roro-portfolio.git
+   cd roro-portfolio
+   ```
 
-## Next.js Resources
+2. Installer les dépendances :
+   ```bash
+   npm install
+   # ou
+   yarn install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. Configurer l'environnement :
+   Créez un fichier `.env.local` à la racine pour y ajouter vos clés API (notamment pour l'API GitHub si nécessaire). Voir `.env.local.example`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Lancer le serveur de développement :
+   ```bash
+   npm run dev
+   # ou
+   yarn dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/)
+5. Ouvrir [http://localhost:3000](http://localhost:3000) dans votre navigateur.
 
-## Deploy on Vercel
+## 🤝 Contact
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+N'hésitez pas à explorer le code ou à me contacter pour toute question ou opportunité !
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **LinkedIn** : [Ronan Meyer](https://www.linkedin.com/in/ronan-meyer)
+- **GitHub** : [Altawn](https://github.com/Altawn)
