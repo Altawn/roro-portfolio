@@ -7,7 +7,7 @@ const ContactPage = () => {
     <div className={styles.layout}>
       <h1 className={styles.pageTitle}>Contactez Moi</h1>
       <p className={styles.pageSubtitle}>
-        N'hésitez pas à me contacter via les résaux sociaux ci-dessous.
+        N&apos;hésitez pas à me contacter via les résaux sociaux ci-dessous.
         Je suis toujours ouvert aux nouvelles opportunités / connexions.
       </p>
       <div className={styles.container}>

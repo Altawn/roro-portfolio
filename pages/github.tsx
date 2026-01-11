@@ -18,7 +18,7 @@ const GithubPage = ({ repos, user }: GithubPageProps) => {
       <div className={styles.pageHeading}>
         <h1 className={styles.pageTitle}>GitHub</h1>
         <p className={styles.pageSubtitle}>
-          Regardez mon compte Github et les différents projets sur lesquels j'ai travaillé récemment.
+          Découvrez mon compte GitHub et les différents projets sur lesquels j&apos;ai travaillé récemment.
         </p>
       </div>
 

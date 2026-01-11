@@ -16,7 +16,7 @@ export default function HomePage() {
     { code: '  const developerInfo = {', type: 'variable' },
     { code: "    name: 'Ronan Meyer',", type: 'array-item' },
     { code: "    role: 'Développeur Web / Design',", type: 'array-item' },
-    { code: "    bio: 'Ingénieur en Master 1 à l'ECE Paris',", type: 'array-item' },
+    { code: "    bio: 'Ingénieur en Master 1 à l\\'ECE Paris',", type: 'array-item' },
     { code: '  };', type: 'array-end' },
     { code: '', type: 'blank' },
     { code: '  useEffect(() => {', type: 'nested-function' },
@@ -92,11 +92,10 @@ export default function HomePage() {
             Meyer <span className={styles.accentText}>Ronan</span>
           </h1>
 
-          <div className={styles.developerRole}>Étudiant à l'ECE</div>
+          <div className={styles.developerRole}>Étudiant à l&apos;ECE</div>
 
           <p className={styles.bio}>
-            Je suis un étudiant en master 1 à l'ECE Paris. J'aime le développement web, le design et je suis toujours ouvert aux
-            nouvelles opportunités.
+            Je suis étudiant en Master 1 à l&apos;ECE Paris. Passionné par le développement web et le design, je suis toujours à l&apos;écoute de nouvelles opportunités.
           </p>
 
           <div className={styles.actionLinks}>
