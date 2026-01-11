@@ -14,9 +14,9 @@ export default function HomePage() {
       type: 'variable',
     },
     { code: '  const developerInfo = {', type: 'variable' },
-    { code: "    name: 'Nitin Ranganath',", type: 'array-item' },
-    { code: "    role: 'Full Stack Developer',", type: 'array-item' },
-    { code: "    bio: 'Building modern web experiences'", type: 'array-item' },
+    { code: "    name: 'Ronan Meyer',", type: 'array-item' },
+    { code: "    role: 'Développeur Web / Design',", type: 'array-item' },
+    { code: "    bio: 'Ingénieur en Master 1 à l'ECE Paris',", type: 'array-item' },
     { code: '  };', type: 'array-end' },
     { code: '', type: 'blank' },
     { code: '  useEffect(() => {', type: 'nested-function' },
@@ -33,7 +33,7 @@ export default function HomePage() {
     { code: '      <p>{developerInfo.role}</p>', type: 'object-method' },
     { code: '      <div className="cta">', type: 'object-method' },
     {
-      code: '        <Link href="/projects">View Projects</Link>',
+      code: '        <Link href="/projects">Voir mes projets</Link>',
       type: 'object-method',
     },
     { code: '      </div>', type: 'object-method' },
@@ -62,9 +62,8 @@ export default function HomePage() {
                 {codeLines.map((_, index) => (
                   <div
                     key={index}
-                    className={`${styles.lineNumber} ${
-                      index === activeLineIndex ? styles.activeLine : ''
-                    }`}
+                    className={`${styles.lineNumber} ${index === activeLineIndex ? styles.activeLine : ''
+                      }`}
                   >
                     {index + 1}
                   </div>
@@ -75,9 +74,8 @@ export default function HomePage() {
                 {codeLines.map((line, index) => (
                   <div
                     key={index}
-                    className={`${styles.codeLine} ${styles[line.type]} ${
-                      index === activeLineIndex ? styles.highlightedLine : ''
-                    }`}
+                    className={`${styles.codeLine} ${styles[line.type]} ${index === activeLineIndex ? styles.highlightedLine : ''
+                      }`}
                   >
                     {line.code}
                   </div>
@@ -91,19 +89,19 @@ export default function HomePage() {
 
         <div className={styles.infoSection}>
           <h1 className={styles.developerName}>
-            Nitin <span className={styles.accentText}>Ranganath</span>
+            Meyer <span className={styles.accentText}>Ronan</span>
           </h1>
 
-          <div className={styles.developerRole}>Full Stack Web Developer</div>
+          <div className={styles.developerRole}>Étudiant à l'ECE</div>
 
           <p className={styles.bio}>
-            I build elegant, responsive web applications with modern
-            technologies. Focused on clean code and intuitive user experiences.
+            Je suis un étudiant en master 1 à l'ECE Paris. J'aime le développement web, le design et je suis toujours ouvert aux
+            nouvelles opportunités.
           </p>
 
           <div className={styles.actionLinks}>
             <Link href="/projects" className={styles.primaryLink}>
-              View Projects <VscArrowRight />
+              Voir mes projets <VscArrowRight />
             </Link>
           </div>
         </div>

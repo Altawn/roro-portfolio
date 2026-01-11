@@ -3,38 +3,38 @@ import styles from '@/styles/ContactCode.module.css';
 const contactItems = [
   {
     social: 'website',
-    link: 'nitinranganath.com',
-    href: 'https://nitinranganath.com',
+    link: 'ronanmeyer.vercel.app',
+    href: 'https://ronanmeyer.vercel.app',
   },
   {
     social: 'email',
-    link: 'nitinranganath@gmail.com',
-    href: 'mailto:nitinranganath@gmail.com',
+    link: 'ronanmeyergo@gmail.com',
+    href: 'mailto:ronanmeyergo@gmail.com',
   },
   {
     social: 'github',
-    link: 'itsnitinr',
-    href: 'https://github.com/itsnitinr',
+    link: 'Altawn',
+    href: 'https://github.com/Altawn',
   },
   {
     social: 'linkedin',
-    link: 'nitinranganath',
-    href: 'https://www.linkedin.com/in/nitinranganath/',
+    link: 'Ronan Meyer-Roussilhon',
+    href: 'https://www.linkedin.com/in/ronan-meyer',
   },
+  // {
+  //   social: 'twitter',
+  //   link: 'iamnitinr',
+  //   href: 'https://www.twitter.com/iamnitinr',
+  // },
+  // {
+  //   social: 'telegram',
+  //   link: 'iamnitinr',
+  //   href: 'https://t.me/iamnitinr',
+  // },
   {
-    social: 'twitter',
-    link: 'iamnitinr',
-    href: 'https://www.twitter.com/iamnitinr',
-  },
-  {
-    social: 'telegram',
-    link: 'iamnitinr',
-    href: 'https://t.me/iamnitinr',
-  },
-  {
-    social: 'peerlist',
-    link: 'nitinranganath',
-    href: 'https://peerlist.io/nitinranganath',
+    social: 'letterboxd',
+    link: 'Ronskeen',
+    href: 'https://letterboxd.com/Ronskeen',
   },
 ];
 

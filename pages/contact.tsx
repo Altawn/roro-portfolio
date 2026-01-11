@@ -5,10 +5,10 @@ import styles from '@/styles/ContactPage.module.css';
 const ContactPage = () => {
   return (
     <div className={styles.layout}>
-      <h1 className={styles.pageTitle}>Contact Me</h1>
+      <h1 className={styles.pageTitle}>Contactez Moi</h1>
       <p className={styles.pageSubtitle}>
-        Feel free to reach out to me through any of the social platforms below.
-        I&apos;m always open to new opportunities and connections.
+        N'hésitez pas à me contacter via les résaux sociaux ci-dessous.
+        Je suis toujours ouvert aux nouvelles opportunités / connexions.
       </p>
       <div className={styles.container}>
         <div className={styles.contactContainer}>
@@ -21,7 +21,7 @@ const ContactPage = () => {
 
 export async function getStaticProps() {
   return {
-    props: { title: 'Contact' },
+    props: { title: 'Contactez Moi' },
   };
 }
 
