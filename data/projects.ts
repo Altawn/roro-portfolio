@@ -39,4 +39,20 @@ export const projects: Project[] = [
     link: 'https://github.com/Altawn/ing4-handepassement-site-web',
     slug: 'ing4-handepassement-site-web',
   },
+  {
+    title: 'Site Handepassement',
+    description:
+      'Création d un site web pour l association Handepassement (Airtable, React).',
+    logo: '/logos/react_icon.svg',
+    link: 'https://github.com/Altawn/ing4-handepassement-site-web',
+    slug: 'ing4-handepassement-site-web',
+  },
+  {
+    title: 'Site Handepassement',
+    description:
+      'Création d un site web pour l association Handepassement (Airtable, React).',
+    logo: '/logos/react_icon.svg',
+    link: 'https://github.com/Altawn/ing4-handepassement-site-web',
+    slug: 'ing4-handepassement-site-web',
+  },
 ];
