@@ -2,8 +2,6 @@
 
 Bienvenue sur le dépôt de mon portfolio personnel. Ce projet est une application web moderne construite avec **Next.js**, et conçue pour ressembler à l'interface de **Visual Studio Code**, mon éditeur de code quotidien.
 
-![Aperçu du Portfolio](https://imgur.com/JXJ9mpO.gif)
-
 ## 👨‍💻 À propos
 
 Ce portfolio regroupe mes projets, mes compétences et mon parcours en tant qu'étudiant en Master 1 à l'ECE Paris (Majeure Ingénierie & Design Produit). Il sert de vitrine interactive pour mon travail en **développement web** (React, Next.js, Node.js) et en **design** (Figma).

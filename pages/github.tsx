@@ -59,7 +59,7 @@ const GithubPage = ({ repos, user }: GithubPageProps) => {
         </div>
         <div className={styles.contributions}>
           <GitHubCalendar
-            username={process.env.NEXT_PUBLIC_GITHUB_USERNAME!}
+            username={"Altawn"}
             hideColorLegend
             hideMonthLabels
             colorScheme="dark"
